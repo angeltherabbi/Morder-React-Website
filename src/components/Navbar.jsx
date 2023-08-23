@@ -2,7 +2,8 @@ import { useState } from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import Logo from '../images/logo.png'
 import {links} from '../data'
-//import {GoThreeBars} from 'react-icons/go'
+import {AiOutlineClose} from 'react-icons/ai'
+import {AiOutlineBars} from 'react-icons/ai'
 import './navbar.css'
 
 
@@ -27,7 +28,7 @@ const Navbar = () => {
               }
             </ul>
             <button className="nav__toggle-btn" onClick={()=>setIsNavShowing(prev => !prev)}>
-              GoThreeBars
+            { isNavShowing ? <AiOutlineClose/> : <AiOutlineBars/> }
             </button>
             
         </div> 
