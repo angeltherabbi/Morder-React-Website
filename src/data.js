@@ -1,7 +1,3 @@
-//import {SiOpenaigym} from 'react-icons/si'
-
-
-
 export const links = [
     {
         name: "Home",
@@ -31,35 +27,31 @@ export const links = [
 
 
 
-
-
-/*
-
 export const programs = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
+        icon: true,
         title: "Program One",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/111"
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
+        icon: false,
         title: "Program Two",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/222"
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
+        icon: true,
         title: "Program Three",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/333"
     },
     {
         id: 4,
-        icon: <SiOpenaigym/>,
+        icon: false,
         title: "Program Four",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/444"
@@ -67,34 +59,28 @@ export const programs = [
 ]
 
 
-
-
-
-
-
-
 export const values = [
     {
         id: 1,
-        icon: <SiOpenaigym/>,
+        icon: false,
         title: "Value One",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     },
     {
         id: 2,
-        icon: <SiOpenaigym/>,
+        icon: false,
         title: "Value Two",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     },
     {
         id: 3,
-        icon: <SiOpenaigym/>,
+        icon: true,
         title: "Value Three",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     },
     {
         id: 4,
-        icon: <SiOpenaigym/>,
+        icon: false,
         title: "Value Four",
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     }
@@ -106,7 +92,7 @@ export const values = [
 
 
 
-
+/*
 
 export const faqs = [
     {
