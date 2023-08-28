@@ -3,7 +3,8 @@ import SectionHead from './SectionHead'
 import {ImQuotesLeft} from 'react-icons/im'
 import Card from '../UI/Card'
 import {testimonials} from '../data'
-import {IoIosArrowDropleft, IoIosArrowDropright} from 'react-icons/io'
+import {IoIosArrowDropleft} from 'react-icons/io'
+import {IoIosArrowDropright} from 'react-icons/io'
 
 const Testimonials = () => {
     const [index, setIndex] = useState(0)
